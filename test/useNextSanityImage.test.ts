@@ -17,8 +17,9 @@ import {
 } from '@sanity/image-url/lib/types/types';
 
 const PROJECT_ID = 'PROJECTID';
-const DATASET = 'DATASET';
+const DATASET = 'dev';
 const IMAGE_ID = 'UUID';
+const API_VERSION = '2021-10-21';
 
 const DEFAULT_IMAGE_WIDTH = 1366;
 const DEFAULT_IMAGE_HEIGHT = 768;
@@ -37,6 +38,7 @@ const DEFAULT_HOTSPOT = {
 };
 
 const configuredSanityClient = sanityClient({
+	apiVersion: API_VERSION,
 	projectId: PROJECT_ID,
 	dataset: DATASET,
 	useCdn: true

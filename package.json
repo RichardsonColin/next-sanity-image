@@ -1,6 +1,6 @@
 {
-  "name": "@RichardsonColin/next-sanity-image",
-  "version": "0.0.1",
+  "name": "@richardsoncolin/next-sanity-image",
+  "version": "0.0.2",
   "description": "Utility for using responsive images hosted on the Sanity.io CDN with the Next.js image component.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -42,7 +42,7 @@
     "typescript": "^4.3.2"
   },
   "peerDependencies": {
-    "@sanity/client": "^3.11.0",
+    "@sanity/client": "^3.3.0",
     "next": "^11.0.0 || ^12.0.0",
     "react": ">= 17.0.2"
   },
